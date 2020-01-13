@@ -47,3 +47,15 @@ int predict(int* data, int num_prev_data){
     else return 0;
 }
 ```
+
+```
+round 1: your score: 0.690000
+round 2: your score: 0.546667
+round 3: your score: 0.773333
+round 4: your score: 0.386667
+average score: 0.599167
+```
+
+## Benchmark
+
+Jotaro's algorithm: average score = 0.89
