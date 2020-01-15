@@ -2,11 +2,11 @@
 
 //YOUR CODE
 //input:
-// int[] data : array of data including previous data so far, with length of num_prev_data.
-// num_prev_data : number of data above
-int predict(int* data, int num_prev_data){
-    //your new data should be data[num_prev_data-1];
-    int value = data[num_prev_data-1];
+// int[] data : array of data including previous data so far, with length of num_data.
+// num_data : number of data above
+int predict(int* data, int num_data){
+    //your new data should be data[num_data-1];
+    int value = data[num_data-1];
 
     //output: 0 for black, 1 for gray and 2 for white.
     if(value > 300)return 2;
