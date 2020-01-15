@@ -30,8 +30,8 @@ dN lN
 ```
 
 ## Evaluation
-Your code will be tested both with existing test data (data1.txt - data4.txt) and will also be tested our private test data.
-The evaluation will be done by accuracy(%) (TODO: maybe I should use cross entropy).
+Your code will be tested both with existing test data (data1.txt - data4.txt).
+The evaluation will be done by accuracy(%).
 
 
 ## Example
@@ -58,4 +58,12 @@ average score: 0.599167
 
 ## Benchmark
 
-Jotaro's algorithm: average score = 0.89
+Jotaro's result:
+
+```
+round 1: your score: 0.983333
+round 2: your score: 0.860000
+round 3: your score: 0.790000
+round 4: your score: 0.916667
+average score: 0.887500
+```
